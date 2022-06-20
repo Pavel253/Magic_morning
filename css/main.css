@@ -1,0 +1,4294 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/* stylelint-disable */
+/* stylelint-disable */
+/* stylelint-disable */
+.custom-checkbox__field:checked + .custom-checkbox__content::after {
+  opacity: 1;
+}
+
+.custom-checkbox__field:focus + .custom-checkbox__content::before {
+  outline: 2px solid #f00;
+  outline-offset: 2px;
+}
+
+.custom-checkbox__field:disabled + .custom-checkbox__content {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* stylelint-disable */
+/* stylelint-disable */
+.btn {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(84, 95, 196, 0.9)), to(#7834CE));
+  background: -o-linear-gradient(top, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  background: linear-gradient(180deg, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  border-radius: 5px;
+  padding: 17px 77px;
+}
+
+.button {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(84, 95, 196, 0.9)), to(#7834CE));
+  background: -o-linear-gradient(top, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  background: linear-gradient(180deg, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  padding: 17px 77px;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  color: #212121;
+  line-height: 80px;
+  padding: 20px 0px;
+}
+
+h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 55px;
+  color: #000000;
+  padding-bottom: 60px;
+}
+
+h3 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 46px;
+  color: #000000;
+}
+
+
+.header__burger {
+  display: none;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer__container-phone {
+  display: none;
+}
+
+.header {
+  height: 80px;
+  background: #3F3446;
+}
+.header .header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 22px 0px;
+}
+.header .container__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.header .mobile__header {
+  display: none;
+}
+.header .container__logo p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding-left: 13px;
+}
+.header .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.header .item a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 0px 19px;
+}
+.header .phone p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.fon {
+  width: 100%;
+  max-height: 823px;
+}
+
+.main .section {
+  padding-bottom: 120px;
+}
+.main .section .background__phone {
+  display: none;
+}
+.main .section:nth-child(1) {
+  position: relative;
+}
+.main .section__background img {
+  width: 100%;
+  height: 720px;
+}
+.main .section__block {
+  width: 1110px;
+  position: absolute;
+  top: 340px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.main .section__block .section__block-left {
+  position: absolute;
+  left: 0px;
+}
+.main .section__block .section__block-right {
+  position: absolute;
+  right: 0px;
+}
+.main .section__block .section__block-right img:nth-child(1) {
+  width: 481px;
+  height: 573px;
+}
+.main .section__block .section__block-right img:nth-child(2) {
+  display: none;
+}
+.main .section__block .section__block-right img:nth-child(3) {
+  display: none;
+}
+.main .section-p1 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #212121;
+}
+.main .section-p2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #212121;
+}
+.main .section__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.main .section__title {
+  padding-bottom: 60px;
+}
+.main .btn {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(84, 95, 196, 0.9)), to(#7834CE));
+  background: -o-linear-gradient(top, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  background: linear-gradient(180deg, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  border-radius: 5px;
+  padding: 17px 77px;
+}
+
+.section__block-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.section__block-2 .section__background {
+  height: 723px;
+}
+.section__block-2 .section__block-left img:nth-child(2) {
+  display: none;
+}
+.section__block-2 .section__block-right {
+  padding-left: 30px;
+}
+.section__block-2 .section__block-right h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 55px;
+  color: #000000;
+  padding-bottom: 60px;
+}
+.section__block-2 .section__block-right .block__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  padding-bottom: 40px;
+}
+.section__block-2 .section__block-right .block__text p {
+  width: 100%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.section__block-2 .section__block-right .block__text .p-1 {
+  padding-left: 70px;
+}
+
+.section__block-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.section__block-3 .text__slider {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 85%;
+  height: 100px;
+  padding-top: 10px;
+  transition: all 1s ease;
+}
+.section__block-3 .text__slider .slider-wrapper {
+  position: relative;
+  display: flex;
+  left: 0px;
+  transition: all 1s ease;
+}
+.section__block-3 .text__slider .slider-wrapper .slide {
+  width: 1000px;
+}
+.section__block-3 .text__slider .slider-wrapper .slide p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  -webkit-transition: padding-left 1s ease-in-out;
+  -o-transition: padding-left 1s ease-in-out;
+  transition: padding-left 1s ease-in-out;
+}
+.section__block-3 .button__dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  top: -60px;
+}
+.section__block-3 .button__dot #btn-prev, .section__block-3 .button__dot #btn-next {
+  cursor: pointer;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+}
+.section__block-3 .button__dot #btn-prev {
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+}
+.section__block-3 .button__dot #btn-next {
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+}
+.section__block-3 .dots-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.section__block-3 .dots-wrapper .dot {
+  margin: 0px 15px;
+}
+.section__block-3 .dots-wrapper .dot.active {
+  background-color: rgb(0, 0, 0);
+}
+.section__block-3 .dots-wrapper span {
+  width: 40px;
+  height: 5px;
+  border-radius: 3px;
+  background-color: gray;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.section__block-3 .dots-wrapper span:last-child {
+  margin-right: 0px;
+}
+
+.section__author .section__block-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__author .section__block-author .section__block-left {
+  padding-right: 30px;
+}
+.section__author .section__block-author .section__block-right img:nth-child(1) {
+  display: block;
+}
+.section__author .section__block-author .section__block-right img:nth-child(2) {
+  display: none;
+}
+.section__author .section__block-author .block__text p {
+  width: 100%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+.section__author .section__block-author .block__text .p {
+  padding: 26px 0px 26px 65px;
+}
+
+.section__slider {
+  padding-bottom: 20px;
+}
+
+.section__life .section__block-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__life .section__block-right {
+  padding-left: 30px;
+}
+.section__life .section__block-right p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  padding-bottom: 40px;
+}
+
+.section__benefits .section__block-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.section__benefits .block-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.section__benefits .block-text p {
+  padding-top: 15px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.section__block-6 {
+  width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+.section__block-6 .container__photo {
+  max-width: 90%;
+  margin: 10px auto;
+  overflow: hidden;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  margin-left: 60px;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+.section__block-6 .container__photo .slider__photo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 0px;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}
+.section__block-6 .container__photo .slider__photo .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  width: 1170px;
+}
+.section__block-6 .container__photo .slider__photo .image__slider {
+  margin: 0px 0px;
+  border-radius: 0px;
+}
+.section__block-6 .arrows__photo {
+  top: 260px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1170px;
+  left: 0px;
+}
+.section__block-6 .arrows__photo .arrows__prev, .section__block-6 .arrows__photo .arrows__next {
+  cursor: pointer;
+  opacity: 0.4;
+  -webkit-transition: -webkit-transform opacity 0.1s ease-in-out;
+  transition: -webkit-transform opacity 0.1s ease-in-out;
+  -o-transition: transform opacity 0.1s ease-in-out;
+  transition: transform opacity 0.1s ease-in-out;
+  transition: transform opacity 0.1s ease-in-out, -webkit-transform opacity 0.1s ease-in-out;
+}
+.section__block-6 .arrows__photo .arrows__prev {
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+.section__block-6 .arrows__photo .arrows__next {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.section__block-6 .arrows__photo .arrows__prev:hover {
+  opacity: 0.8;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+.section__block-6 .arrows__photo .arrows__next:hover {
+  opacity: 0.8;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.image__flex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  gap: 9px;
+}
+.image__flex .mini__image.active img {
+  -webkit-box-shadow: -1px 1px 3px 1px rgba(173, 0, 255, 0.5);
+  box-shadow: -1px 1px 3px 1px rgba(173, 0, 255, 0.5);
+}
+.image__flex .mini__image {
+  cursor: pointer;
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+.image__flex .mini__image img {
+  border-radius: 5px;
+}
+.image__flex .mini__image:hover {
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  -o-transition: transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+}
+
+.section__block-8 .purchase__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.section__block-8 .book__buy-1 {
+  position: relative;
+  width: 350px;
+  height: 574px;
+  left: 0px;
+  top: 0px;
+  background: #3F3446;
+  border-radius: 5px;
+}
+.section__block-8 .book__buy-1 h4 {
+  position: absolute;
+  left: 13.71%;
+  right: 23.71%;
+  top: 5.73%;
+  bottom: 89.15%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-1 img {
+  position: absolute;
+  width: 250px;
+  height: 337px;
+  left: 50px;
+  top: 88px;
+}
+.section__block-8 .book__buy-1 p {
+  position: absolute;
+  width: 65px;
+  height: 21px;
+  left: 142px;
+  top: 441px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-1 .btn {
+  position: absolute;
+  left: 18.57%;
+  right: 18.57%;
+  top: 84.8%;
+  bottom: 6.02%;
+}
+.section__block-8 .book__buy-1 .button {
+  cursor: pointer;
+}
+.section__block-8 .book__buy-1 .button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(60, 76, 219, 0.9)), to(#6e1cda));
+  background: -o-linear-gradient(top, rgba(60, 76, 219, 0.9) 1.96%, #6e1cda 100%);
+  background: linear-gradient(180deg, rgba(60, 76, 219, 0.9) 1.96%, #6e1cda 100%);
+}
+.section__block-8 .book__buy-1 :root {
+  --modal-duration: 1s;
+  --modal-color: #428bca;
+}
+.section__block-8 .book__buy-1 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.section__block-8 .book__buy-1 .modal .modal-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 10% auto;
+  width: 500px;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  -webkit-animation-name: modalopen;
+  animation-name: modalopen;
+  -webkit-animation-duration: var(--modal-duration);
+  animation-duration: var(--modal-duration);
+}
+.section__block-8 .book__buy-1 .modal .modal-header p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  width: 230px;
+}
+.section__block-8 .book__buy-1 .modal .modal-header h2,
+.section__block-8 .book__buy-1 .modal .modal-footer h3 {
+  margin: 0;
+}
+.section__block-8 .book__buy-1 .modal .modal-header {
+  background: var(--modal-color);
+  padding: 25px;
+  color: #fff;
+  background: #3F3446;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.section__block-8 .book__buy-1 .modal .modal-body {
+  padding: 0px 20px;
+  height: 440px;
+  background: #3F3446;
+}
+.section__block-8 .book__buy-1 .modal .modal-body img {
+  top: 80px;
+  left: 140px;
+}
+.section__block-8 .book__buy-1 .modal .modal-body .form {
+  position: relative;
+  top: 400px;
+  left: 20px;
+}
+.section__block-8 .book__buy-1 .modal .modal-body .form .action__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__block-8 .book__buy-1 .modal .modal-body .form .action__input .form__name, .section__block-8 .book__buy-1 .modal .modal-body .form .action__input .form__address {
+  width: 184px;
+  height: 26px;
+  border-bottom: 2px solid #FFFFFF;
+  background-color: #3F3446;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 147.4%;
+  color: rgb(255, 255, 255);
+}
+.section__block-8 .book__buy-1 .modal .modal-body .form .action__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.section__block-8 .book__buy-1 .modal .modal-body .form .action__text .action__btn {
+  width: 185px;
+  height: 50px;
+  padding: 13px 62px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(84, 95, 196, 0.9)), to(#7834CE));
+  background: -o-linear-gradient(top, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  background: linear-gradient(180deg, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  border-radius: 5px;
+}
+.section__block-8 .book__buy-1 .modal .modal-body .form .action__text span {
+  padding-right: 110px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-1 .modal .modal-footer {
+  background: var(--modal-color);
+  padding: 40px 0px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #3F3446;
+}
+.section__block-8 .book__buy-1 .modal .close1 {
+  color: #ccc;
+  float: right;
+  font-size: 50px;
+  color: #fff;
+}
+.section__block-8 .book__buy-1 .modal .close1:hover,
+.section__block-8 .book__buy-1 .modal .close1:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@-webkit-keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.section__block-8 .book__buy-3 {
+  position: relative;
+  width: 350px;
+  height: 574px;
+  left: 0px;
+  top: 0px;
+  background: #3F3446;
+  border-radius: 5px;
+}
+.section__block-8 .book__buy-3 h4 {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 5.75%;
+  bottom: 89.04%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-3 img {
+  position: absolute;
+  left: 16.86%;
+  right: 17.14%;
+  top: 14.36%;
+  bottom: 26.18%;
+}
+.section__block-8 .book__buy-3 p {
+  position: absolute;
+  left: 40.57%;
+  right: 40.86%;
+  top: 77.25%;
+  bottom: 18.74%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-3 .btn {
+  position: absolute;
+  left: 16.86%;
+  right: 20.29%;
+  top: 85.27%;
+  bottom: 5.73%;
+}
+.section__block-8 .book__buy-3 .button {
+  cursor: pointer;
+}
+.section__block-8 .book__buy-3 .button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(60, 76, 219, 0.9)), to(#6e1cda));
+  background: -o-linear-gradient(top, rgba(60, 76, 219, 0.9) 1.96%, #6e1cda 100%);
+  background: linear-gradient(180deg, rgba(60, 76, 219, 0.9) 1.96%, #6e1cda 100%);
+}
+.section__block-8 .book__buy-3 :root {
+  --modal-duration: 1s;
+  --modal-color: #428bca;
+}
+.section__block-8 .book__buy-3 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.section__block-8 .book__buy-3 .modal .modal-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 10% auto;
+  width: 500px;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  -webkit-animation-name: modalopen;
+  animation-name: modalopen;
+  -webkit-animation-duration: var(--modal-duration);
+  animation-duration: var(--modal-duration);
+}
+.section__block-8 .book__buy-3 .modal .modal-header p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 40px;
+  left: 180px;
+  width: 230px;
+}
+.section__block-8 .book__buy-3 .modal .modal-header h2,
+.section__block-8 .book__buy-3 .modal .modal-footer h3 {
+  margin: 0;
+}
+.section__block-8 .book__buy-3 .modal .modal-header {
+  background: var(--modal-color);
+  padding: 25px;
+  color: #fff;
+  background: #3F3446;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.section__block-8 .book__buy-3 .modal .modal-body {
+  padding: 0px 20px;
+  height: 440px;
+  background: #3F3446;
+}
+.section__block-8 .book__buy-3 .modal .modal-body img {
+  top: 80px;
+  left: 140px;
+}
+.section__block-8 .book__buy-3 .modal .modal-body .form {
+  position: relative;
+  top: 400px;
+  left: 10px;
+}
+.section__block-8 .book__buy-3 .modal .modal-body .form .action__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__block-8 .book__buy-3 .modal .modal-body .form .action__input .form__name, .section__block-8 .book__buy-3 .modal .modal-body .form .action__input .form__address {
+  width: 184px;
+  height: 26px;
+  border-bottom: 2px solid #FFFFFF;
+  background-color: #3F3446;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 147.4%;
+  color: rgb(255, 255, 255);
+}
+.section__block-8 .book__buy-3 .modal .modal-body .form .action__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.section__block-8 .book__buy-3 .modal .modal-body .form .action__text .action__btn {
+  width: 185px;
+  height: 50px;
+  padding: 13px 62px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(84, 95, 196, 0.9)), to(#7834CE));
+  background: -o-linear-gradient(top, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  background: linear-gradient(180deg, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  border-radius: 5px;
+}
+.section__block-8 .book__buy-3 .modal .modal-body .form .action__text span {
+  width: 245px;
+  padding-right: 0px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-3 .modal .modal-footer {
+  background: var(--modal-color);
+  padding: 40px 0px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #3F3446;
+}
+.section__block-8 .book__buy-3 .modal .close3 {
+  color: #ccc;
+  float: right;
+  font-size: 50px;
+  color: #fff;
+}
+.section__block-8 .book__buy-3 .modal .close3:hover,
+.section__block-8 .book__buy-3 .modal .close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.section__block-8 .book__buy-2 {
+  position: relative;
+  width: 350px;
+  height: 611px;
+  left: 0px;
+  top: 0px;
+  background: #3F3446;
+  border-radius: 5px;
+}
+.section__block-8 .book__buy-2 h4 {
+  position: absolute;
+  left: 23.71%;
+  right: 23.71%;
+  top: 5.73%;
+  bottom: 89.15%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-2 img {
+  position: absolute;
+  left: 15.43%;
+  right: 15.43%;
+  top: 14.24%;
+  bottom: 24.71%;
+}
+.section__block-8 .book__buy-2 p {
+  position: absolute;
+  left: 18.57%;
+  right: 18.57%;
+  top: 77.91%;
+  bottom: 18.66%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-2 .btn {
+  position: absolute;
+  left: 17.14%;
+  right: 17.14%;
+  top: 85.27%;
+  bottom: 5.73%;
+}
+.section__block-8 .book__buy-2 .button {
+  cursor: pointer;
+}
+.section__block-8 .book__buy-2 .button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(60, 76, 219, 0.9)), to(#6e1cda));
+  background: -o-linear-gradient(top, rgba(60, 76, 219, 0.9) 1.96%, #6e1cda 100%);
+  background: linear-gradient(180deg, rgba(60, 76, 219, 0.9) 1.96%, #6e1cda 100%);
+}
+.section__block-8 .book__buy-2 :root {
+  --modal-duration: 1s;
+  --modal-color: #428bca;
+}
+.section__block-8 .book__buy-2 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.section__block-8 .book__buy-2 .modal .modal-content {
+  margin: 10% auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 500px;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  -webkit-animation-name: modalopen;
+  animation-name: modalopen;
+  -webkit-animation-duration: var(--modal-duration);
+  animation-duration: var(--modal-duration);
+}
+.section__block-8 .book__buy-2 .modal .modal-header p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+  position: absolute;
+  top: 40px;
+  left: 160px;
+  width: 230px;
+}
+.section__block-8 .book__buy-2 .modal .modal-header h2,
+.section__block-8 .book__buy-2 .modal .modal-footer h3 {
+  margin: 0;
+}
+.section__block-8 .book__buy-2 .modal .modal-header {
+  background: var(--modal-color);
+  padding: 25px;
+  color: #fff;
+  background: #3F3446;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.section__block-8 .book__buy-2 .modal .select {
+  width: 200px;
+  height: 20px;
+  background: #3F3446;
+}
+.section__block-8 .book__buy-2 .modal .modal-body {
+  padding: 0px 20px;
+  height: 500px;
+  background: #3F3446;
+}
+.section__block-8 .book__buy-2 .modal .modal-body img {
+  top: 80px;
+  left: 140px;
+}
+.section__block-8 .book__buy-2 .modal .modal-body .form {
+  position: relative;
+  top: 400px;
+  left: 10px;
+}
+.section__block-8 .book__buy-2 .modal .modal-body .form .action__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__block-8 .book__buy-2 .modal .modal-body .form .action__input .form__name, .section__block-8 .book__buy-2 .modal .modal-body .form .action__input .form__address {
+  width: 184px;
+  height: 26px;
+  border-bottom: 2px solid #FFFFFF;
+  background-color: #3F3446;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 147.4%;
+  color: rgb(255, 255, 255);
+}
+.section__block-8 .book__buy-2 .modal .modal-body .form .action__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.section__block-8 .book__buy-2 .modal .modal-body .form .action__text .action__btn {
+  width: 185px;
+  height: 50px;
+  padding: 13px 62px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.96%, rgba(84, 95, 196, 0.9)), to(#7834CE));
+  background: -o-linear-gradient(top, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  background: linear-gradient(180deg, rgba(84, 95, 196, 0.9) 1.96%, #7834CE 100%);
+  border-radius: 5px;
+}
+.section__block-8 .book__buy-2 .modal .modal-body .form .action__text h6 {
+  width: 245px;
+  padding-right: 0px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-2 .modal .modal-body .form .action__text span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.section__block-8 .book__buy-2 .modal .modal-footer {
+  background: var(--modal-color);
+  padding: 20px 0px;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #3F3446;
+}
+.section__block-8 .book__buy-2 .modal .close2 {
+  color: #ccc;
+  float: right;
+  font-size: 50px;
+  color: #fff;
+}
+.section__block-8 .book__buy-2 .modal .close2:hover,
+.section__block-8 .book__buy-2 .modal .close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.section__block-9 {
+  position: relative;
+}
+.section__block-9 .slider {
+  width: 100%;
+  overflow: hidden;
+}
+.section__block-9 .slider-line {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 0;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}
+.section__block-9 .section__block-9 {
+  position: relative;
+}
+.section__block-9 .container__review {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  overflow: hidden;
+  width: 1170px;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}
+.section__block-9 .reviews__block-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  left: 0;
+  width: 1170px;
+}
+.section__block-9 .reviews__buyer {
+  margin: 0px 20px;
+  position: relative;
+  width: 350px;
+  height: 485px;
+  left: 0px;
+  top: 0px;
+  background: #3F3446;
+  border-radius: 5px;
+}
+.section__block-9 .container__review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__block-9 .title {
+  position: absolute;
+  left: 25px;
+  top: 310px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.section__block-9 .reviews__buyer img {
+  position: absolute;
+  height: 270px;
+  width: 85%;
+  left: 25px;
+  top: 25px;
+}
+.section__block-9 p {
+  position: absolute;
+  width: 300px;
+  height: 85px;
+  left: 25px;
+  top: 342px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.section__block-9 a {
+  position: absolute;
+  width: 73px;
+  height: 17px;
+  left: 25px;
+  top: 443px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.section__block-9 .transition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 106%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 330px;
+  left: -30px;
+}
+.section__block-9 .prev, .section__block-9 .next {
+  cursor: pointer;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  border-radius: 3px;
+  width: 25px;
+  height: 25px;
+}
+.section__block-9 .prev {
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+  opacity: 0.8;
+}
+.section__block-9 .next {
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 0.8;
+}
+
+.section__block-10 .work__book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.section__block-10 .work__book .work__book-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.section__block-10 .work__book p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  padding: 11px 0px;
+}
+.section__block-10 .work__book .main-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+.section__block-10 .work__book span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  padding-right: 30px;
+}
+.section__block-10 .data__book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__block-10 .data__book .data__book-left img {
+  width: 540px;
+  height: 321px;
+}
+.section__block-10 .data__book .data__book-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+.section__block-10 .data__book .data__book-right .data__text-left {
+  padding-right: 55px;
+}
+.section__block-10 .data__book .data__book-right .data__text-left p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  padding: 11px 0px;
+}
+.section__block-10 .data__book .data__book-right .data__text-left span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+.section__block-10 .data__book .data__book-right .data__text-right p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  padding: 11px 0px;
+}
+.section__block-10 .data__book .data__book-right .data__text-right span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.section__block-11 .prev__next {
+  position: relative;
+  bottom: 280px;
+  width: 100%;
+}
+.section__block-11 .prev__next .prev-book {
+  border-radius: 2px;
+  position: absolute;
+  left: -40px;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  -webkit-transform: rotate(315deg) translateX(0);
+  -ms-transform: rotate(315deg) translateX(0);
+  transform: rotate(315deg) translateX(0);
+  cursor: pointer;
+}
+.section__block-11 .prev__next .prev-book:hover {
+  width: 29px;
+  height: 29px;
+  border-left: 4px solid black;
+  border-top: 4px solid black;
+  -webkit-transform: rotate(315deg) translateY(-10px);
+  -ms-transform: rotate(315deg) translateY(-10px);
+  transform: rotate(315deg) translateY(-10px);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  -o-transition: transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  cursor: pointer;
+}
+.section__block-11 .prev__next .next-book {
+  border-radius: 2px;
+  position: absolute;
+  right: -40px;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+  -webkit-transform: rotate(135deg) translateX(0);
+  -ms-transform: rotate(135deg) translateX(0);
+  transform: rotate(135deg) translateX(0);
+  cursor: pointer;
+}
+.section__block-11 .prev__next .next-book:hover {
+  -webkit-transform: rotate(135deg) translateX(-10px);
+  -ms-transform: rotate(135deg) translateX(-10px);
+  transform: rotate(135deg) translateX(-10px);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  -o-transition: transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  width: 29px;
+  height: 29px;
+  border-left: 4px solid black;
+  border-top: 4px solid black;
+  cursor: pointer;
+}
+.section__block-11 .library__books {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 1130px;
+}
+.section__block-11 .container__books {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  left: 0;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s;
+}
+.section__block-11 .block__books {
+  display: flex;
+  position: relative;
+  left: 0;
+  width: 100%;
+  transition: all ease-in-out 1s;
+}
+.section__block-11 .reviews__buyer {
+  width: 1170px;
+  margin: 0px 20px 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__block-11 .reviews__buyer img:nth-child(2) {
+  margin: 0px 20px;
+}
+.section__block-11 .libraly__transition {
+  width: 100%;
+  position: relative;
+  top: -250px;
+}
+
+.section__block-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.section__block-12 h2 {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.section__block-12 .form p {
+  width: 568px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 20px;
+}
+.section__block-12 .form .form__buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section__block-12 .form .from__group {
+  position: relative;
+  border: 1px solid #000000;
+}
+.section__block-12 .form .from__group .input__email {
+  padding-left: 20px;
+  width: 350px;
+  height: 55px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.footer {
+  height: 397px;
+  background: #3F3446;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 116px 0px;
+}
+.footer__container .container__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.footer__container .container__left a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 135.99%;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding-top: 31px;
+  padding-bottom: 41px;
+}
+.footer__container .container__left p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 135.99%;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer__container .container__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.footer__container .container__center .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.footer__container .container__center .item a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding: 0px 19px;
+}
+.footer__container .container__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.footer__container .container__logo img {
+  padding-right: 15px;
+}
+.footer__container .container__logo p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.footer__container .container__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.footer__container .container__right p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 135.99%;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+.footer__container .container__right .block-phone p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  padding-bottom: 25px;
+}
+.footer__container .container__right .block-phone span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer__container .container__right .block-svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.footer__container .container__right .block-svg img {
+  padding-right: 22px;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 1110px;
+  }
+  .section__block-6 .container__photo {
+    margin-left: 60px;
+  }
+  .section__block-6 .arrows__photo {
+    top: 260px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1110px;
+    left: 40px;
+}
+
+
+  .section__block-11 .library__books {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 1110px;
+  }
+  .section__block-11 .reviews__buyer {
+    margin: 0px 20px 0px 30px;
+  }
+  .section__block-11 .prev__next .prev-book {
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+  }
+  .section__block-11 .prev__next .next-book {
+    border-radius: 2px;
+    position: absolute;
+    right: 0px;
+  }
+  .section__block-11 .library__books {
+    width: 1070px;
+  }
+  .section__block-11 .library__books img {
+    width: 330px;
+    height: 440px;
+  }
+  .section__block-11 .prev__next {
+    position: relative;
+    bottom: 240px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  .section__block-6 .container__photo {
+    margin-left: 50px;
+  }
+  .section__block-6 {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+  .section__block-6 .arrows__photo {
+    top: 260px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 960px;
+    left: 0px;
+  }
+
+
+  .section__block-11 .library__books {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 920px;
+  }
+  .main .section__block-11 .block__books {
+    margin-left: 0px;
+  }
+  .section__block-11 .reviews__buyer {
+    margin: 0px 0px 0px 0px;
+}
+
+
+  .main .section__block .section__block-right img:nth-child(1) {
+    width: 402px;
+    height: 423px;
+  }
+
+  .main .section__background img {
+    height: 470px;
+  }
+  .main .section__block {
+    top: 240px;
+    width: 960px;
+  }
+  .main .section__block .section__block-right {
+    right: 0px;
+  }
+  .main .section__block-3 .text__slider  {
+    width: 780px;
+  }
+  .main .section__block-3 .text__slider .slider-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0px;
+  }
+  .main .section__block-3 .text__slider .slider-wrapper .slide {
+    display: block;
+    width: 800px;
+  }
+  .main .section__block-5 .section__block-5 {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .main .section__block-8 .book__buy-1 {
+    width: 300px;
+  }
+  .main .section__block-8 .book__buy-1 img {
+    position: absolute;
+    width: 250px;
+    height: 337px;
+    left: 25px;
+    top: 88px;
+  }
+  .main .section__block-8 .book__buy-1 h4 {
+    right: 3.71%;
+  }
+  .main .section__block-8 .book__buy-1 p {
+    left: 122px;
+  }
+  .main .section__block-8 .book__buy-1 .btn {
+    left: 12.57%;
+    right: 12.57%;
+  }
+  .main .section__block-8 .book__buy-2 {
+    width: 300px;
+    height: 582px;
+  }
+  .main .section__block-8 .book__buy-2 img {
+    position: absolute;
+    width: 250px;
+    height: 337px;
+    left: 25px;
+    top: 88px;
+  }
+  .main .section__block-8 .book__buy-2 h4 {
+    left: 18.71%;
+    right: 10.71%;
+  }
+  .main .section__block-8 .book__buy-2 p {
+    left: 12.57%;
+    right: 5.57%;
+    top: 73.91%;
+  }
+  .main .section__block-8 .book__buy-2 .btn {
+    left: 12.57%;
+    right: 12.57%;
+    top: 84.27%;
+    bottom: 5.73%;
+  }
+  .main .section__block-8 .book__buy-3 {
+    width: 300px;
+  }
+  .main .section__block-8 .book__buy-3 img {
+    position: absolute;
+    width: 250px;
+    height: 337px;
+    left: 25px;
+    top: 88px;
+  }
+  .main .section__block-8 .book__buy-3 h4 {
+    left: 27%;
+    right: 10%;
+  }
+  .main .section__block-8 .book__buy-3 p {
+    left: 36.57%;
+    right: 30.86%;
+  }
+  .main .section__block-8 .book__buy-3 .btn {
+    left: 12.57%;
+    right: 12.57%;
+  }
+  .main .section__block-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main .section__block-4 .section__block-left img {
+    width: 350px;
+    height: 281px;
+  }
+  .main .section__author .section__block-right img {
+    width: 307px;
+    height: 307px;
+  }
+  .main .section__author .section__block-left img:nth-child(1) {
+    display: none;
+  }
+  .main .section__author .section__block-left img:nth-child(2) {
+    display: block;
+  }
+  .main .section__block-9 .transition {
+    top: 320px;
+    left: 0px;
+    width: 100%;
+  }
+  .main .section__block-9 .reviews__buyer {
+    height: 455px;
+  }
+  .main .section__block-9 .reviews__buyer img {
+    position: absolute;
+    height: 250px;
+    width: 93%;
+    left: 10px;
+    top: 10px;
+  }
+  .main .section__block-9 .reviews__buyer .title {
+    left: 10px;
+    top: 270px;
+  }
+  .main .section__block-9 .reviews__buyer p {
+    width: 260px;
+    height: 85px;
+    left: 10px;
+    top: 302px;
+  }
+  .main .section__block-9 .reviews__buyer a {
+    left: 10px;
+    top: 423px;
+  }
+  .main .section__block-10 .data__book .data__book-left img {
+    width: 100%;
+    height: 100%;
+  }
+  .main .section__block-10 .data__book-right {
+    padding-left: 30px;
+  }
+  .main .section__block-11 .library__books {
+    margin: 0 auto;
+  } 
+  .main .section__block-11 .block__books {
+    margin-left: 0px;
+  }
+  .main .section__block-11 .reviews__buyer {
+    width: 920px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .main .section__block-11 .reviews__buyer img {
+    width: 280px;
+  }
+  .main .section__block-11 .reviews__buyer img:nth-child(2) {
+    margin: 0px 30px;
+  }
+  .main .section__block-11 .prev__next {
+    position: relative;
+    bottom: 220px;
+  }
+  .main .section__block-11 .prev__next .next-book {
+    right: 0;
+  }
+  .main .section__block-11 .prev__next .prev-book {
+    left: 0;
+  }
+
+  .footer .footer__container .container__center {
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  h1 {
+    font-size: 72px;
+    padding: 15px 0px;
+  }
+
+  h2 {
+    padding-bottom: 40px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+
+  .section__block-6 .arrows__photo {
+    top: 180px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 720px;
+    left: 0px;
+  }
+  .section__block-6 {
+    width: 720px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .section__block-6 .container__photo {
+    margin-left: 35px;
+  }
+
+
+  .section__block-8 .book__buy-2 .modal .modal-body .form {
+    position: relative;
+    top: 300px;
+    left: 10px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-body {
+    padding: 0px 20px;
+    height: 380px;
+    background: #3F3446;
+  }
+
+  .main .section__block .section__block-right img:nth-child(1) {
+    display: none;
+  }
+
+  .main .section__block .section__block-right img:nth-child(2) {
+    display: block;
+  }
+
+  .main .section__block .section__block-left {
+    position: absolute;
+    left: 0px;
+    top: 60px;
+  }
+
+  .header .header__container .list {
+    display: none;
+  }
+  .header .header__container .phone {
+    display: none;
+  }
+  .header .mobile__header {
+    display: block;
+  }
+  .header .mobile__header .burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .header .mobile__header .burger .line__burger {
+    width: 30px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+  }
+
+  .main .section__block .section__block-right {
+    right: 60px;
+  }
+
+  .section__block-2 .section__block-right .block__text p {
+    width: 444px;
+    font-size: 14px;
+    bottom: 10px;
+  }
+
+  .section__block-right {
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  .main .section__block {
+    top: 210px;
+    width: 720px;
+  }
+
+  .section__block-3 .text__slider .flex-wrapper .slider-wrapper .slide p {
+    height: 68px;
+  }
+
+  .main .section__block {
+    top: 170px;
+    width: 660px;
+  }
+
+  .main .section__block .section__block-right {
+    right: 0px;
+  }
+
+  .main .section__block {
+    top: 50px;
+    width: 660px;
+  }
+
+  .main .section__background img {
+    height: 420px;
+  }
+  .main .section__block-right img {
+    height: 360px;
+  }
+  .main .section__block-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .main .section__block-2 .section__block-left img:nth-child(1) {
+    display: none;
+  }
+  .main .section__block-2 .section__block-left img:nth-child(2) {
+    display: block;
+  }
+  .main .section__block-2 .section__block-right {
+    padding-left: 0px;
+    padding-bottom: 50px;
+  }
+  .main .section__block-left {
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+  .main .section__block-3 .text__slider .flex-wrapper .slider-wrapper .slide {
+    display: block;
+    width: 600px;
+  }
+  .main .text__slider .flex-wrapper .slider-wrapper .slide p {
+    padding: 0px 0px;
+    left: 50px;
+  }
+  .main .section__block-3 .text__slider {
+    width: 680px;
+  }
+  .main .section__block-3 .text__slider .flex-wrapper {
+    width: 630px;
+    left: 50px;
+  }
+  .main .section__block-3 .dots-wrapper {
+    padding-top: 50px;
+  }
+  .main .section__block-3 .text__slider .slider-wrapper {
+    display: flex;
+    left: 30px;
+  }
+  h2 {
+    font-size: 37px;
+  }
+
+  .main .section__block-8 .book__buy-1 {
+    width: 230px;
+    height: 484px;
+  }
+  .main .section__block-8 .book__buy-1 img {
+    width: 200px;
+    height: 267px;
+    left: 15px;
+  }
+  .main .section__block-8 .book__buy-1 h4 {
+    left: 9.71%;
+    right: 9.71%;
+    font-size: 20px;
+  }
+  .main .section__block-8 .book__buy-1 p {
+    left: 85px;
+    top: 76.25%;
+  }
+  .main .section__block-8 .book__buy-1 .btn {
+    left: 4.57%;
+    right: 4.57%;
+    top: 85.27%;
+    bottom: 3.73%;
+  }
+
+  .section__block-2 .section__block-right h2 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 55px;
+    color: #000000;
+    padding-bottom: 40px;
+    width: 568px;
+  }
+
+  .main .section {
+    padding-bottom: 80px;
+  }
+
+  .main .section__block-8 .book__buy-2 {
+    width: 230px;
+    height: 494px;
+  }
+  .main .section__block-8 .book__buy-2 img {
+    width: 200px;
+    height: 267px;
+    left: 15px;
+  }
+  .main .section__block-8 .book__buy-2 h4 {
+    left: 16.71%;
+    right: 10.71%;
+    font-size: 20px;
+  }
+  .main .section__block-8 .book__buy-2 p {
+    left: 60px;
+    top: 74.25%;
+  }
+  .main .section__block-8 .book__buy-2 .btn {
+    left: 4.57%;
+    right: 4.57%;
+    top: 85.27%;
+    bottom: 3.73%;
+  }
+
+  .section__author .section__block-author .block__text .p {
+    padding: 15px 0px 15px 15px;
+  }
+
+  .main .section__block-8 .book__buy-3 {
+    width: 230px;
+    height: 484px;
+  }
+  .main .section__block-8 .book__buy-3 img {
+    width: 200px;
+    height: 267px;
+    left: 15px;
+  }
+  .main .section__block-8 .book__buy-3 h4 {
+    left: 23.71%;
+    right: 10.71%;
+    font-size: 20px;
+  }
+  .main .section__block-8 .book__buy-3 p {
+    left: 85px;
+    top: 76.25%;
+  }
+  .main .section__block-8 .book__buy-3 .btn {
+    left: 4.57%;
+    right: 4.57%;
+    top: 85.27%;
+    bottom: 3.73%;
+  }
+
+  .main .section__block-9 .reviews__buyer img {
+    position: absolute;
+    height: 170px;
+    width: 90%;
+    left: 10px;
+    top: 10px;
+  }
+
+  .main .section__block-11 .prev__next {
+    position: relative;
+    bottom: 180px;
+  }
+
+  .main .section__block-9 .reviews__buyer .title {
+    top: 200px;
+  }
+
+  .main .section__block-9 .reviews__buyer p {
+    width: 180px;
+    height: 85px;
+    left: 10px;
+    top: 240px;
+  }
+
+  .section__block-9 .reviews__buyer {
+    margin: 0px 10px;
+  }
+
+  .main .section__block-9 .transition {
+    top: 320px;
+    left: -15px;
+    width: 105%;
+  }
+
+  .work__book-right img {
+    width: 100%;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .main .section__block-11 .reviews__buyer img {
+    width: 220px;
+  }
+
+  .main .section__block-11 .reviews__buyer img:nth-child(2) {
+    margin: 0px 10px;
+  }
+
+  .main .section__block-11 .reviews__buyer {
+    width: 680px;
+  }
+
+  .section__block-11 .library__books {
+    overflow: hidden;
+    width: 680px;
+  }
+  .section__block-11 .library__books img {
+    height: 320px;
+    width: 240px;
+  }
+  .section__block-11 .library__books img:nth-child(3) {
+    display: block;
+  }
+  .main .section__block-11 .block__books {
+    margin: 0 auto;
+    margin-left: 0px;
+  }
+  .main .section__block-11 .prev__next {
+    position: relative;
+    bottom: 180px;
+  }
+  .main .section__block-3 .text__slider .slider-wrapper {
+    display: flex;
+    left: 8px;
+  }
+  .footer__container .container__center .list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer__container .container__center .list .item {
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    padding-bottom: 10px;
+  }
+
+  .footer__container {
+    padding: 80px 0px;
+  }
+
+  .footer {
+    height: 327px;
+    background: #3F3446;
+  }
+
+  .header .header__container {
+    display: flex;
+  }
+
+  @keyframes example {
+    from {padding-top: 60px;}
+    to {padding-top: 0px;}
+}
+
+  .header {
+    height: 80px;
+    position: relative;
+    transition: all 400ms ease;
+  }
+  .header._active {
+    height: 270px;
+    position: relative;
+    transition: all 1s ease;
+  }
+  .header__burger._active{
+    transition: all 1s ease;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 720px;
+    margin: 0 auto;
+    height: 270px;
+  }
+  .header__burger._active {
+    display: block;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   .header__left .container__header .logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-bottom: 110px;
+  }
+   .header__left {
+    position: absolute;
+    left: 0;
+  }
+   .header__right {
+    position: absolute;
+    right: 60px;
+    top: -25px;
+  }
+   .header__left .container__header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+  }
+  .header__left .container__header .logo img {
+    padding-right: 15px;
+  }
+  .header__left .container__header .logo h5 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .email p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 280px;
+    padding-bottom: 15px;
+  }
+  .container__header .form {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+  }
+  .container__header .form button {
+    padding: 0px 10px;
+    width: 91px;
+    height: 25px;
+    background: #54485B;
+    border-radius: 0px 2px 2px 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .header__right .item__burger .link-a{
+    color: #FFFFFF;
+  }
+  .header__right .item__burger .link-a{
+    color: #FFFFFF;
+  }
+  .container__header .form input {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    padding: 4px 4px;
+    border-radius: 2px 0px 0px 2px;
+  }
+  .header__navigation .container__header .form .email__burger {
+    border-radius: 2px;
+    width: 213px;
+    height: 25px;
+    left: 24px;
+    top: 212px;
+    background: #FFFFFF;
+  }
+  .header__navigation .mobile__header {
+    display: flex;
+    align-items: flex-end;
+    width: 120px;
+    animation-name: example;
+    animation-duration: 1s;
+  }
+  .mobile__header p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 125px;
+  }
+  .mobile__header {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+   .mobile__header span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .header__navigation .list__burger {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .header__navigation {
+    transition: all 1s ease;
+  }
+  .header__navigation .list__burger .item__burger .link-a {
+    margin: 5px 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .header__navigation .list__burger .item__burger {
+    margin: 3px 0px;
+  }
+  .header__right {
+    display: flex;
+    align-items: start;
+  }
+  .menu__burger {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .header__burger ._active {
+    height: 270px;
+    position: absolute;
+    width: 720px;
+  }
+  .header__right .burger {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+  .header__right .burger .line__burger{
+    width: 30px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html, body {
+    height: 100%;
+    width: 102%;
+  }
+
+  .container {
+    width: 540px;
+  }
+
+  .section__block img:nth-child(3) {
+    display: none;
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 54px;
+    padding: 10px 0px;
+  }
+
+  h2 {
+    padding-bottom: 30px;
+  }
+
+  .main .section-p2 {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .main .section__title {
+    padding-bottom: 40px;
+  }
+
+  .main .section__block {
+    top: 50px;
+    width: 540px;
+  }
+
+  .section__block-3 .button__dot {
+    
+  }
+  .main .section__block-3 .text__slider {
+    width: 460px;
+  }
+.main .section__block-3 .text__slider .slider-wrapper .slide {
+    width: 460px;
+  }
+
+  .section__block .section__block-right {
+    height: 300px;
+  }
+  .section__block img:nth-child(1) {
+    display: none;
+  }
+  .section__block img:nth-child(3) {
+    display: none;
+  }
+
+  .section__block-author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .section__block-author .section__block-right {
+    padding-top: 30px;
+  }
+
+  .section__block-3 .text__slider .flex-wrapper .slider-wrapper .slide p {
+    font-size: 14px;
+  }
+
+  .main .section__block-3 .text__slider .flex-wrapper .slider-wrapper .slide {
+    display: block;
+    width: 540px;
+  }
+
+  .main .section__block-3 .text__slider .flex-wrapper {
+    width: 540px;
+    left: 0px;
+  }
+
+  .section__block-2 .section__block-right .block__text {
+    padding-bottom: 20px;
+  }
+
+  .main .section__block-3 .text__slider .slider-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0px;
+  }
+
+  .section__block-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .section__block-4 .section__block-right {
+    padding-top: 20px;
+    padding-left: 0px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+
+  .section__benefits .section__block-5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section__benefits .section__block-5 .block-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    padding-bottom: 15px;
+  }
+
+  .main .section__block-9 .reviews__buyer:nth-child(3) {
+    display: none;
+  }
+  .main .section__block-9 .reviews__buyer p {
+    width: 220px;
+    height: 85px;
+    left: 10px;
+    top: 250px;
+  }
+  .main .section__block-9 .reviews__buyer a {
+    left: 10px;
+    top: 390px;
+  }
+  .main .section__block-9 .reviews__buyer {
+    height: 425px;
+  }
+  .main .section__block-9 .transition {
+    display: none;
+  }
+
+  .main .section__block-9 .reviews__buyer img {
+    position: absolute;
+    height: 220px;
+    width: 200px;
+    left: 10px;
+    top: 10px;
+  }
+
+  .main .section__block-9 .reviews__buyer .title {
+    top: 240px;
+  }
+
+  .main .section__block-9 .reviews__buyer p {
+    width: 280px;
+    height: 85px;
+    left: 10px;
+    top: 280px;
+  }
+
+  .section__block-8 .purchase__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .main .section__block-8 .book__buy-1 {
+    display: none;
+  }
+
+  .main .section__block-8 .book__buy-3 {
+    display: none;
+  }
+
+  .main .section__block-8 .book__buy-2 {
+    width: 270px;
+    height: 494px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  .main .section__block-8 .book__buy-2 p {
+    left: 25px;
+    top: 77.25%;
+  }
+
+  .main .section__block-8 .book__buy-2 img {
+    width: 200px;
+    height: 287px;
+    left: 35px;
+  }
+
+  .main .section__block-8 .book__buy-2 h4 {
+    left: 18.71%;
+    right: 10.71%;
+    font-size: 20px;
+  }
+
+  .section__block-12 .form .form__buttom {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .section__block-10 .work__book {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .section__block-10 .work__book .work__book-right {
+    padding-top: 20px;
+  }
+
+  .data__book {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+  .data__book .data__book-right {
+    padding-top: 20px;
+  }
+
+  .main .section__block-10 .data__book-right {
+    padding-left: 0px;
+  }
+
+  .section__block-10 .data__book {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+
+  .reviews__buyer img:nth-child(3) {
+    display: none;
+  }
+
+  .main .section__block-11 .reviews__buyer {
+    width: 470px;
+  }
+
+  .main .section__block-2 .section__block-left img:nth-child(2) {
+    display: block;
+    width: 100%;
+  }
+
+  .section__block-12 .form .from__group .input__email {
+    padding-left: 20px;
+    width: 250px;
+    height: 55px;
+    font-size: 16px;
+  }
+
+  .section__block-12 .form p {
+    width: 498px;
+  }
+
+  .button {
+    padding: 17px 57px;
+  }
+
+  .footer__container .container__left p {
+    font-size: 12px;
+  }
+
+  .footer__container .container__right p {
+    font-size: 14px;
+  }
+
+
+  .section__block-6 .arrows__photo {
+    top: 180px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 540px;
+    left: 0px;
+}
+.section__block-6 {
+  width: 540px;
+  margin: 0 auto;
+  position: relative;
+}
+.section__block-6 .container__photo {
+  margin-left: 25px;
+}
+.section__block-6 .arrows__photo {
+  top: 140px;
+}
+.section__block-3 .button__dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 92%;
+  top: -60px;
+}
+
+.main .section__block-3 .text__slider .slider-wrapper .slide {
+   width: 440px; 
+   height: 120px;
+}
+.main .section__block-3 .text__slider {
+  width: 440px;
+}
+
+
+.main .section__block-9 .reviews__buyer p {
+  width: 230px;
+  height: 85px;
+  left: 10px;
+  top: 280px;
+}
+.main .section__block-9 .reviews__buyer img {
+  position: absolute;
+  height: 220px;
+  width: 230px;
+  left: 10px;
+  top: 10px;
+}
+.main .section__block-9 .reviews__buyer a {
+    left: 10px;
+    top: 400px;
+}
+.main .section__block-9 .transition {
+    display: block;
+}
+.main .section__block-9 .transition {
+  top: 280px;
+  left: 0px;
+  width: 100%;
+}
+.section__block-9 .prev, .section__block-9 .next{
+  position: absolute;
+  right: 0;
+}
+.section__block-9 .prev, .section__block-9 .prev{
+  position: absolute;
+  left: 0;
+}
+.section__block-3 .text__slider {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 85%;
+  height: 170px;
+  padding-top: 40px;
+  transition: all 1s ease;
+}
+.section__block-3 .button__dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 92%;
+  top: -70px;
+}
+.section__data {
+  width: 540px;
+  margin: 0 auto;
+}
+
+.main .section__block-11 .reviews__buyer img:nth-child(2) {
+  margin: 0px 0px 0px 10px;
+}
+.section__block-9 .reviews__buyer {
+  margin: 0px 20px;
+  position: relative;
+  width: 230px;
+  height: 485px;
+  left: 0px;
+  top: 0px;
+  background: #3F3446;
+  border-radius: 5px;
+}
+.main .section__block-9 .reviews__buyer img {
+  position: absolute;
+  height: 190px;
+  width: 210px;
+  left: 10px;
+  top: 10px;
+}
+.main .section__block-9 .reviews__buyer .title {
+  top: 210px;
+}
+.main .section__block-9 .reviews__buyer p {
+  width: 210px;
+  height: 85px;
+  left: 10px;
+  top: 240px;
+}
+.main .section__block-9 .reviews__buyer a {
+  left: 10px;
+  top: 380px;
+}
+.main .section__block-9 .reviews__buyer {
+  height: 405px;
+}
+.main .section__block-11 .prev__next {
+    position: relative;
+    bottom: 180px;
+    display: block;
+}
+.section__block-11 .library__books img:nth-child(3) {
+  display: none;
+}
+
+.section__block-11 .library__books {
+  overflow: hidden;
+  width: 450px;
+}
+
+.header .header__container {
+  display: flex;
+}
+
+@keyframes example {
+  from {padding-top: 60px;}
+  to {padding-top: 0px;}
+}
+
+.header {
+  height: 80px;
+  position: relative;
+  transition: all 400ms ease;
+}
+.header._active {
+  height: 270px;
+  position: relative;
+  transition: all 1s ease;
+}
+.header__burger._active{
+  transition: all 1s ease;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 540px;
+  margin: 0 auto;
+  height: 270px;
+}
+.header__burger._active {
+  display: block;
+  height: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ .header__left .container__header .logo{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding-bottom: 110px;
+}
+ .header__left {
+  position: absolute;
+  left: 0;
+}
+ .header__right {
+  position: absolute;
+  right: 60px;
+  top: -25px;
+}
+ .header__left .container__header {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+.header__left .container__header .logo img {
+  padding-right: 15px;
+}
+.header__left .container__header .logo h5 {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.email p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  width: 280px;
+  padding-bottom: 15px;
+}
+.container__header .form {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+.container__header .form button {
+  padding: 0px 10px;
+  width: 91px;
+  height: 25px;
+  background: #54485B;
+  border-radius: 0px 2px 2px 0px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.header__right .item__burger .link-a{
+  color: #FFFFFF;
+}
+.header__right .item__burger .link-a{
+  color: #FFFFFF;
+}
+.container__header .form input {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  padding: 4px 4px;
+  border-radius: 2px 0px 0px 2px;
+}
+.header__navigation .container__header .form .email__burger {
+  border-radius: 2px;
+  width: 213px;
+  height: 25px;
+  left: 24px;
+  top: 212px;
+  background: #FFFFFF;
+}
+.header__navigation .mobile__header {
+  display: flex;
+  align-items: flex-end;
+  width: 120px;
+  animation-name: example;
+  animation-duration: 1s;
+}
+.mobile__header p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  width: 125px;
+}
+.mobile__header {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+ .mobile__header span {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.header__navigation .list__burger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header__navigation {
+  transition: all 1s ease;
+}
+.header__navigation .list__burger .item__burger .link-a {
+  margin: 5px 0px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.header__navigation .list__burger .item__burger {
+  margin: 3px 0px;
+}
+.header__right {
+  display: flex;
+  align-items: start;
+}
+.menu__burger {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+.header__burger ._active {
+  height: 270px;
+  position: absolute;
+  width: 720px;
+}
+.header__right .burger {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.header__right .burger .line__burger{
+  width: 30px;
+  height: 3px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  margin-top: 5px;
+}
+
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+
+  .section__block-3 .text__slider .slider-wrapper .slide p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .main .section__block-3 .text__slider {
+    width: 80%;
+    height: 100%;
+    padding-top: 0px;
+}
+  .main .section__background img {
+    height: 540px;
+  }
+  .section__block-3 .button__dot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 92%;
+    top: 0px;
+    bottom: 0px;
+}
+.slider__block-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+  .main .section__block {
+    top: 40px;
+    width: 340px;
+    margin: 0px 20px;
+  }
+
+  .section__block-2 .section__block-right h2 {
+    line-height: 35px;
+  }
+
+  .main .section__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+
+  .main .section .background__phone {
+    display: block;
+  }
+
+  .main .section__block {
+    top: 40px;
+    width: 320px;
+  }
+
+  .main .section .background__decstop {
+    display: none;
+  }
+
+  .main .section__block .section__block-right {
+    position: absolute;
+    right: 90px;
+    top: 190px;
+  }
+  .main .section__block .section__block-right img:nth-child(2) {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main .section__block .section__block-left {
+    position: absolute;
+    left: 0px;
+    top: -20px;
+  }
+
+  h1 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    color: #212121;
+    line-height: 60px;
+    padding: 10px 0px;
+  }
+
+  h2 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+  }
+  .section__block-3 .button__dot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    width: 92%;
+    top: 50px;
+    bottom: -40px;
+}
+  .section__block-2 .section__block-right h2 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+    padding-bottom: 40px;
+    width: 298px;
+  }
+
+  .main .section__block-4 .section__block-left img {
+    width: 280px;
+    height: 221px;
+  }
+
+  .section__block-3 .text__slider .flex-wrapper {
+    height: 200px;
+  }
+
+  .section__block-3 .text__slider .flex-wrapper .slider-wrapper .slide p {
+    height: 208px;
+  }
+
+  .section__block-2 .section__block-right .block__text p {
+    width: auto;
+    font-size: 14px;
+    bottom: 10px;
+  }
+
+  .section__block-2 .section__block-right .block__text .p-1 {
+    padding-left: 30px;
+  }
+
+  .main .section__block-3 .dots-wrapper {
+    display: none;
+  }
+
+  .main .section__title {
+    padding-bottom: 30px;
+  }
+
+  .main .section {
+    padding-bottom: 60px;
+  }
+
+  .main .section__block-3 .text__slider .flex-wrapper .slider-wrapper .slide {
+    display: block;
+    width: 320px;
+  }
+
+  .main .text__slider .flex-wrapper .slider-wrapper .slide p {
+    padding: 0px 20px;
+  }
+
+  .main .section__block-3 .text__slider .flex-wrapper {
+    width: 320px;
+    left: 0px;
+  }
+
+  .main .section__block-9 .reviews__buyer:nth-child(2) {
+    display: none;
+  }
+
+  .main .section__block-9 .reviews__buyer img {
+    position: absolute;
+    height: 230px;
+    width: 275px;
+    left: 10px;
+    top: 10px;
+  }
+
+  .section__block-6 .arrows__photo {
+    top: 180px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 340px;
+    left: 0px;
+  }
+  .section__block-6 .container__photo {
+    margin-left: 15px;
+  }
+
+
+  .main .section__block-9 .reviews__buyer p {
+    width: 210px;
+    height: 85px;
+    left: 10px;
+    top: 280px;
+  }
+  .main .section__block-9 .reviews__buyer {
+      height: 445px;
+      width: 300px;
+  }.main .section__block-9 .reviews__buyer a {
+    top: 409px;
+    width: 180px;
+  }
+  .main .section__block-9 .reviews__buyer a {
+    left: 10px;
+    top: 410px;
+}
+
+
+  .section__author .section__block-author .block__text p {
+    width: 100%;
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+  .main .text__slider .flex-wrapper .slider-wrapper .slide p {
+    padding: 0px 0px;
+  }
+
+  h2 {
+    font-size: 31px;
+  }
+
+  .section__benefits .section__block-5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main .section__author .section__block-right img {
+    width: 277px;
+    height: 277px;
+  }
+
+  h3 {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+  }
+
+  .section__benefits .block-text p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .section__block-12 .form .from__group .input__email {
+    padding-left: 10px;
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .main .section__block-10 .data__book .data__book-left img {
+    width: 90%;
+    height: 100%;
+  }
+
+  .main .section__block-11 .reviews__buyer {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+
+
+  .main .section__block-11 .reviews__buyer img {
+    width: 300px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .main .section__block-11 .block__books {
+    margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .main .section__block-11 .reviews__buyer img:nth-child(2) {
+    display: none;
+  }
+
+  .section__block-10 .work__book .main-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+  .section__block-10 .work__book span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    padding-right: 30px;
+  }
+
+  .section__block-10 .work__book p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    padding: 9px 0px;
+  }
+
+  .section__block-12 .form p {
+    width: 90%;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .footer__container {
+    padding: 60px 0px;
+  }
+
+  .work__book-right img {
+    width: 90%;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .section__block-12 .form .from__group .input__email {
+    padding-left: 10px;
+    width: 190px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .main .section__block-2 .section__block-left img:nth-child(2) {
+    display: block;
+    width: 90%;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 7px 18px;
+  }
+
+  .section__life .section__block-right p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    padding-bottom: 30px;
+  }
+  .main .section__block-11 .reviews__buyer img:nth-child(3) {
+    display: none;
+  }
+  .main .section__block-10 .data__book-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .section__data {
+    width: 360px;
+    margin: 0 auto;
+  }
+  .section__block-6 .arrows__photo {
+    top: 70px;
+  }
+  .main .section__block-9 .reviews__buyer p {
+    width: 210px;
+    height: 85px;
+    left: 10px;
+    top: 270px;
+}
+  .main .section__block-9 .reviews__buyer img {
+    position: absolute;
+    height: 210px;
+    width: 245px;
+    left: 10px;
+    top: 10px;
+}
+.main .section__block-9 .reviews__buyer {
+  height: 435px;
+  width: 265px;
+}
+.main .section__block-9 .reviews__buyer .title {
+  top: 230px;
+}
+.section__block-9 .reviews__block-name {
+  justify-content: center;
+}
+
+  .section__block-6 .arrows__photo .arrows__prev {
+    width: 20px;
+    height: 20px;
+  }
+  .section__block-6 .arrows__photo .arrows__next {
+    width: 20px;
+    height: 20px;
+  }
+
+  .main .section__block-11 .reviews__buyer img {
+    width: 240px;
+  }
+  .section__block-11 .library__books {
+    overflow: hidden;
+    width: 240px;
+  }
+  .footer__container {
+    display: none;
+  }
+
+  .footer {
+    height: 457px;
+  }
+
+  .footer__container-phone {
+    display: block;
+    padding: 60px 0px;
+  }
+  .footer__container-phone .container__center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .footer__container-phone .container__center .container__left .list .item {
+    padding-bottom: 15px;
+  }
+  .footer__container-phone .container__center .container__left .list .item .link-a {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .footer__container-phone .container__center .container__right p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135.99%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  .footer__container-phone .container__center .container__right .block-phone {
+    padding: 30px 0px;
+  }
+  .footer__container-phone .container__center .container__right .block-phone p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .footer__container-phone .container__center .container__right .block-phone span {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 140%;
+  }
+  .footer__container-phone .container__center .container__right .block-svg img {
+    padding-right: 15px;
+  }
+  .footer__container-phone .container__bottom {
+    padding-top: 38px;
+  }
+  .footer__container-phone .container__bottom .container__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .footer__container-phone .container__bottom .container__logo img {
+    padding-right: 15px;
+  }
+  .footer__container-phone .container__bottom .container__logo p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .footer__container-phone .container__bottom a {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 335.99%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin: 15px 0px;
+  }
+  .footer__container-phone .container__bottom p {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 135.99%;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+
+  .main .section__block-9 .reviews__buyer .title {
+    top: 230px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-content {
+    margin: 10% auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 300px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-body img {
+    top: 100px;
+    left: 60px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-header p {
+    font-size: 20px;
+    top: 50px;
+    left: 80px;
+    width: 230px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-body .form .action__input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-body .form {
+    position: relative;
+    top: 360px;
+    left: 10px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-body {
+    padding: 0px 20px;
+    height: 530px;
+    background: #3F3446;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-body .form .action__input .form__name, .section__block-8 .book__buy-2 .modal .modal-body .form .action__input .form__address {
+    width: 240px;
+    height: 26px;
+  }
+
+  .section__block-8 input {
+    margin-bottom: 20px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .modal-body .form .action__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    top: 90px;
+    left: 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .section__block-8 .book__buy-2 .modal .modal-body .form .action__text h6 {
+    line-height: 26px;
+    padding-bottom: 10px;
+    width: 185px;
+  }
+
+  .section__block-8 .book__buy-2 .modal .close2 {
+    margin: -10px -10px;
+  }
+
+  .header .header__container {
+    display: flex;
+  }
+
+  @keyframes example {
+    from {padding-top: 60px;}
+    to {padding-top: 0px;}
+}
+
+  .header {
+    height: 80px;
+    position: relative;
+    transition: all 400ms ease;
+  }
+  .header._active {
+    height: 270px;
+    position: relative;
+    transition: all 1s ease;
+  }
+  .header__burger._active{
+    transition: all 1s ease;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 320px;
+    margin: 0 auto;
+    height: 270px;
+  }
+  .header__burger._active {
+    display: block;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+   .header__left .container__header .logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-bottom: 110px;
+  }
+   .header__left {
+    position: absolute;
+    left: 0px;
+    top: 130px;
+  }
+   .header__right {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 340px;
+  }
+   .header__left .container__header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .mobile__header .email p {
+    width: 215px;
+}
+  .header__left .container__header .logo img {
+    padding-right: 15px;
+  }
+  .header__left .container__header .logo h5 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .email p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 280px;
+    padding-bottom: 15px;
+  }
+  .container__header .form {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+  }
+  .section__block-6 {
+    width: 360px;
+    margin: 0 auto;
+    position: relative;
+}
+.section__block-6 .container__photo {
+  margin-left: 5px;
+}
+.mobile__header {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+  .section__block-6 .container__photo .slider__photo .image__slider {
+    width: 320px;
+    height: auto;
+  }
+  .container__header .form button {
+    padding: 0px 10px;
+    width: 91px;
+    height: 25px;
+    background: #54485B;
+    border-radius: 0px 2px 2px 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .header__right .item__burger .link-a{
+    color: #FFFFFF;
+  }
+  .header__right .item__burger .link-a{
+    color: #FFFFFF;
+  }
+  .container__header .form input {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    padding: 4px 4px;
+    border-radius: 2px 0px 0px 2px;
+  }
+  .header__navigation .container__header .form .email__burger {
+    border-radius: 2px;
+    width: 213px;
+    height: 25px;
+    left: 24px;
+    top: 212px;
+    background: #FFFFFF;
+  }
+  .header__navigation .mobile__header {
+    display: flex;
+    align-items: flex-end;
+    width: 130px;
+    top: 10px;
+    right: 0px;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 1s;
+  }
+  .mobile__header p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 125px;
+  }
+  .mobile__header {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .header__navigation .list__burger {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    top: 70px;
+}
+   .mobile__header span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .header__navigation .list__burger {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: absolute;
+    left: 10px;
+  }
+  .header__navigation {
+    transition: all 1s ease;
+  }
+  .header__navigation .list__burger .item__burger .link-a {
+    margin: 5px 8px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+  .header__navigation .list__burger .item__burger {
+    margin: 3px 0px;
+  }
+  .header__right {
+    display: flex;
+    align-items: flex-end;
+  }
+  .menu__burger {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  .header__burger ._active {
+    height: 270px;
+    position: absolute;
+    width: 320px;
+  }
+  .header__right .burger {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+  .header__right .burger .line__burger{
+    width: 30px;
+    height: 3px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    margin-top: 5px;
+  }
+}
